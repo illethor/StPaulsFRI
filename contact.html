@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>St. Paul's Family Resources Institute</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<!-- jQuery and bootstrap javascript files -->
+	<script src = "jquery/jquery.min.js"></script>
+    <script src = "bootstrap/js/bootstrap.min.js"></script>
+    <!-- ---------------------------------------->
+</head>
+<body>
+	<header id="about-header" >
+		<!-- start NAV section -->
+		<nav class="navbar navbar-dark navbar-expand-xl" style="background-color: rgba(0,0,0,0.65);">
+		  <!-- Brand -->
+		  <a class="navbar-brand" href="#">St. Paul's FRI</a>
+
+		  <!-- Toggler/collapsibe Button -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <!-- Navbar links -->
+		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		    <ul class="navbar-nav" style="margin-left:60%;">
+		      <li class="nav-item">
+		        <a class="nav-link" style="color:white;" href="index.html">HOME</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" style="color:white;" href="foodbank.html">food bank</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" style="color:white;" href="about.html">about us</a>
+		      </li> 
+		       <li class="nav-item">
+		        <a class="nav-link" style="color:white;" href="programs.html">PROGRAMS</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" style="color:white;" href="#">contact us</a>
+		      </li>
+		    </ul>
+		  </div> 
+		</nav>
+		<!-- END NAV -->
+		<div style="display:flex; align-items: center; justify-content: center; height:500px; color: white; flex-flow: column; background-color: rgba(0,0,0,0.3);">
+			<h1>
+				St. Paul's
+			</h1>
+			<h2>
+				<em>Family Resources Institute</em>
+			</h2>
+			<h3 style="color: white;">CONTACT US</h3>
+		</div>
+	</header>
+	<main class="container-fluid">
+		<div class="row">
+			<div class="col-xl" style="text-align: center;">
+				<div style="display:inline-block; width:100%;">
+					<div>
+						<h2 style="font-weight:650;color:rgb(6, 57, 140);">PHONE AND ADDRESS</h2>
+						<p style="font-size: 20pt; font-weight: 625; color:rgb(6, 57, 140);">TELEPHONE</p>
+						<p style="font-size:16pt; font-weight: 600; color: rgb(66, 66, 66)">(902) 479-1015</p>
+						<p style="font-size: 20pt; font-weight: 625; color:rgb(6, 57, 140);">FOOD BANK</p>
+						<p style="font-size:16pt; font-weight: 600; color: rgb(66, 66, 66)">(902) 477-5090</p>
+						<p style="font-size: 20pt; font-weight: 625; color:rgb(6, 57, 140);">ADDRESS</p>
+						<p style="font-size:16pt; font-weight: 600; color: rgb(66, 66, 66) margin-top:-15px;">St. Paul's United Church<br>
+						173  Old Sambro Rd. Halifax, Nova Scotia<br>
+						B3R  2H6  Canada<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl" style="text-align: center; margin-top: 15px;">
+				<div style="display:inline-block;">
+					<h2 style="font-weight:650;color:rgb(6, 57, 140);">ASK US</h2>
+					<form style="margin-bottom: 15px;">
+						<label style="font-weight: 625; margin-top:15px;">First Name</label><br>
+						<input type="text" name="fname"><br>
+						<label style="font-weight: 625; margin-top:15px;">Last Name or Initial</label><br>
+						<input type="text" name="lname"><br>
+						<label style="font-weight: 625; margin-top:15px;">What is your question about?</label><br>
+						<select name="question-type" >
+						  <option value="food-bank">Food Bank</option>
+						  <option value="general">General</option>
+						  <option value="community-garden">Community Garden</option>
+						  <option value="day-camp">Day Camp</option>
+						</select>
+						<br>
+						<label style="font-weight: 625; margin-top:15px; ">Your question/message:</label><br>
+						<textarea name="message" rows="10" cols="100" style=" margin-bottom: 25px; resize:none; border: solid lightblue 2px;"></textarea><br>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="footer-container" style="color:lightgray;">
+				<img src="images/footer-logo.png" style="clip-path: inset(14% 0 7% 0);">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

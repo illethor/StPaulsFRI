@@ -1,0 +1,279 @@
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+.col-sm{
+	padding:0px;
+}
+
+header{
+	background-image:url(../stpauls.jpg);
+}
+
+#about-header{
+	background-image:url(../novascotia.jpg);
+
+}
+
+strong{
+	font-weight: 600;
+}
+
+ul{
+	margin-left: 50%;
+}
+
+li{
+	text-transform: uppercase;
+}
+
+.nav-link, .nav-item{
+	color: white;
+	font: arial;
+}
+
+.nav-item{
+	margin-left: 20px;
+}
+
+
+
+#link-div{
+	margin-left:5%;
+}
+
+#welcome-wrapper{
+	height: 500px;
+	overflow: hidden;
+	text-align: center;
+	color:white;
+	/*background-color: rgba(0,0,0,0.4);*/
+}
+
+#welcome-div{
+	height:500px;
+	text-align: center;
+}
+
+#map {
+    height: 650px;  /* The height is 400 pixels */
+    width: 50%;  /* The width is the width of the web page */
+}
+
+
+.main-div-1-wrapper{
+	height: 300px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.main-div-1{
+	height: 300px;
+	display:inline-block;
+	text-transform: uppercase;
+}
+
+#paulicon{
+	float: left;
+	width: 199px;
+	height: 43px;
+	margin-top: 30px;
+	margin-left:10%;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 48pt;
+	color:white;
+}
+h2{
+	font-size:42pt;
+
+}
+
+h3{
+	font-weight: 700;
+	color: rgb(6, 57, 140);
+	font-size: 42pt;
+}
+
+#mainwelcome{
+	margin-top: 75px;
+}
+
+.img-container, .message-container{
+	height:500px;
+	padding-left: 0;
+	padding-right: 0;	
+}
+
+#img-container-1{
+	background-image: url("../miniplaque.jpg");
+	overflow:hidden;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#img-container-2{
+	background-image: url("../garden.jpg");
+	overflow:hidden;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* Icon Styling for dropdown arrows */
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+	margin-top: 6px;
+	margin-left: 7px;
+  float: right;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/*Finished icon styling for dropdown arrows */
+
+footer{
+	background:black;
+	color:white;
+	height: 100px;
+	position: relative;
+}
+
+.footer-container{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Styling for button on homepage */
+.button {
+  border-radius: 4px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover{
+	color: lightblue;
+}
+/*End button styling */
+
+/* Styling for table */
+/*table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+  
+}*/
+
+.contact-div{
+	left:38%;
+}
+
+@media screen and (max-width: 1237px) {
+    .img-container {
+        display: none !important;
+    }
+
+    .john-div{
+    	margin-left: -2%;
+    }
+
+    .contact-div{
+    	left:25%;
+    }
+
+    .main-div-1-wrapper{
+    	min-height: 500px;
+    }
+
+    .main-div-2-wrapper{
+    	min-height: 600px;
+    }
+
+    .kristen-image{
+      margin-bottom:25px;
+    }
+
+    .food-div{
+      margin-top: 50px;
+    }
+
+    .programs-div{
+      margin-top: 50px;
+    }
+
+}
+
+.nav-item{
+  margin-left: 10px;
+}
